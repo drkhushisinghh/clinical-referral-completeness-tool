@@ -13,7 +13,7 @@ st.set_page_config(
 
 # Custom CSS for enhanced clinical styling & readability
 st.markdown("""
-    <style>
+<style>
     .main {
         background-color: #f8fafc;
     }
@@ -31,6 +31,7 @@ st.markdown("""
     }
     .metric-card {
         background-color: white;
+        color: #1e293b;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -38,6 +39,7 @@ st.markdown("""
     }
     .warning-box {
         background-color: #fffbeb;
+        color: #b45309;
         border-left: 5px solid #f59e0b;
         padding: 15px;
         border-radius: 8px;
@@ -45,12 +47,13 @@ st.markdown("""
     }
     .success-box {
         background-color: #f0fdf4;
+        color: #15803d;
         border-left: 5px solid #22c55e;
         padding: 15px;
         border-radius: 8px;
         margin-bottom: 10px;
     }
-    </style>
+</style>
 """, unsafe_allow_html=True)
 
 SPECIALTY_REQUIREMENTS = {
