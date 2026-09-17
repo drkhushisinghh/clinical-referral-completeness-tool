@@ -118,7 +118,7 @@ st.sidebar.title("🏥 Clinical Referral Tool")
 st.sidebar.markdown("---")
 app_mode = st.sidebar.selectbox(
     "Navigation Mode",
-    ["Referral Builder & Checker", "Project Overview & Research", "FHIR Interoperability Viewer"]
+    ["Referral Builder & Completeness Checker", "Project Overview & Research", "FHIR Interoperability Viewer"]
 )
 
 st.sidebar.markdown("---")
